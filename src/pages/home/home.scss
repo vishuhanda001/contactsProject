@@ -1,0 +1,95 @@
+page-home {
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.navbar{
+    width:100%;
+    height:60px;
+    background-color:#444;
+    position:fixed;
+    text-align:center;
+    font-size: 20px;
+}
+.navbar .headnav{
+    display: block;
+    margin-top: 15px;
+    color: white;
+    
+    
+}
+.container{
+    overflow: visible;
+    padding:10px 5px 10px 5px;
+    background-color: lightgray;
+    width: 100%;
+    
+    padding-top: 70px;
+}
+
+.container .card{
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.container .card h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+    .container span{
+        font-family: 'Open Sans', sans-serif;
+        display: block;
+        margin-left: 2%;
+    }
+    .container span:nth-child(1){
+        font-size: 30px;
+        color: #40834b;
+    }
+    .container span:nth-child(2){
+        font-size: 10px;
+        color: gray;
+        text-transform: uppercase;
+    }
+    .container span:nth-child(4){
+        font-size: 10px;
+        width: 15%;
+        color: gray;
+        display: inline-block;
+        text-transform: uppercase;
+    }
+    .container span:nth-child(5){
+        font-size: 10px;
+        color: gray;
+        display: inline-block;
+        margin-left: 75%;
+    }
+
+    .progress-outer {
+        width: 96%;
+        margin: 10px 2%;
+        padding: 3px;
+        text-align: center;
+        background-color: #f4f4f4;
+        border: 1px solid #dcdcdc;
+        color: #fff;
+        border-radius: 20px;
+    }
+ 
+    .progress-inner {
+        min-width: 15%;
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 5px;
+        border-radius: 20px;
+      }
+
+      .scroll-content {
+        background-color: map-get($colors, light);
+    }
+
+
+
+}

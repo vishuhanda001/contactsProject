@@ -1,0 +1,46 @@
+
+
+<ion-content overflow-scroll="true" style="overflow:hidden;">
+<div  class="navbar">
+  <span class="headnav">Graphs Demo</span>
+</div>
+  
+  <div class="container">
+    <div class="card">
+      <span>7800$</span>
+      <span>Total Profit</span>
+      <div class="progress-outer">
+        <div class="progress-inner" [style.width]="progress + '%'" style="background-color:green">      
+        </div>
+      </div>
+      <span>Progress</span> 
+      <span>{{progress}}%</span> 
+    </div>
+    
+    <div class="card">
+      <span style="color:red;">1349</span>
+      <span>New Feedbacks</span>
+      <div class="progress-outer">
+        <div class="progress-inner" [style.width]="progress + '%'" style="background-color:red">      
+        </div>
+      </div>
+      <span>change</span> 
+      <span>{{progress}}%</span> 
+    </div>
+    
+    
+    
+    <div class="card">
+      <h5>Finance status</h5>
+      <canvas #barCanvas1 class="canvas" style="height:170px;"></canvas>
+    </div>
+    
+    <div class="card">
+        <h5>Server status</h5>
+      <canvas #barCanvas2></canvas>
+    </div> 
+  </div>
+  
+  
+  
+</ion-content>
